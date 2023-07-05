@@ -1,0 +1,118 @@
+<!-- 
+  - A tag <!DOCTYPE> define o tipo de documento. 
+  - O atributo html define que o documento é um documento HTML. 
+-->
+<!DOCTYPE html>
+
+<!-- 
+  - A tag <html> define o início do documento. 
+  - O atributo lang define o idioma do documento.
+-->
+<html lang="pt-br">
+
+<!-- 
+  - O cabeçalho(<head>) do documento é onde ficam as informações sobre o documento, como o título, o conjunto de caracteres, a versão do Internet Explorer e a escala do documento para dispositivos móveis. 
+-->
+
+<head>
+  <!-- 
+    - Define o conjunto de caracteres do documento para UTF-8(Padrão do Brasil).
+  -->
+  <meta charset="UTF-8">
+
+  <!-- 
+    - Define a versão do Internet Explorer. 
+  -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- 
+    - Define a escala do documento para dispositivos móveis. 
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - Define o título do documento. 
+  -->
+  <title>Principais Tags HTML</title>
+</head>
+
+<!-- 
+  - O corpo(<body>) do documento é onde fica o conteúdo que será exibido na página. 
+-->
+
+<body>
+  <!-- 
+    - As tags de cabeçalhos vão de <h1> a <h6>, sendo <h1> o maior e <h6> o menor. 
+  -->
+  <h1>Cabeçalho H1</h1>
+  <h2>Cabeçalho H2</h2>
+  <h3>Cabeçalho H3</h3>
+  <h4>Cabeçalho H4</h4>
+  <h5>Cabeçalho H5</h5>
+  <h6>Cabeçalho H6</h6>
+
+  <!-- 
+    - A tag <hr> é uma tag vazia, ou seja, não possui tag de fechamento. 
+  -->
+  <hr>
+
+  <!-- 
+    - A tag <p> é uma tag de parágrafo, ou seja, ela define um parágrafo.
+  -->
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis nisi expedita dolore hic nemo eaque officiis.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, minus? Est perferendis ducimus placeat!</p>
+
+  <!-- 
+    - A tag <br> é uma tag de quebra de linha, ou seja, ela não ocupa toda a largura da página. 
+  -->
+  Um texto qualquer
+  <br><br>
+  Outro texto qualquer
+  <br><br>
+
+  <!-- 
+    - A tag <a> é uma tag de link, ou seja, ela permite que você crie links para outros sites. 
+    - O atributo href="" define o link para o qual o usuário será redirecionado ao clicar no link. 
+    - O atributo target="_blank" faz com que o link seja aberto em uma nova aba. 
+  -->
+  <a href="https://letscode.com.br" target="_blank">Site da Let's Code</a>
+
+  <br><br>
+
+  <!-- 
+    - A tag <img> é uma tag de imagem, ou seja, ela permite que você insira imagens na página. 
+    - O atributo src="" define o caminho da imagem.
+    - O atributo alt="" define o texto alternativo da imagem, ou seja, o texto que será exibido caso a imagem não seja carregada.
+    - O atributo width="" define a largura da imagem.
+    - O atributo height="" define a altura da imagem.
+  -->
+  <img src="https://s3.amazonaws.com/gupy5/production/companies/18055/career/40897/images/2022-08-04_15-29_logo.png" alt="Logo da Let's Code" width="210">
+  <img src="./img/lets-code-wallpaper.png" alt="Wallpaper da Let's Code" width="400">
+
+  <!-- 
+    - A tag <ul> é uma tag de lista não ordenada, ou seja, ela permite que você crie listas não ordenadas.
+    - A tag <ol> é uma tag de lista ordenada, ou seja, ela permite que você crie listas ordenadas. 
+    - A tag <li> é uma tag de item de lista, ou seja, ela define um item da lista.
+  -->   
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ol>
+
+  <!-- 
+    - A tag <div> é uma tag de divisão, ou seja, ela permite que você divida a página em blocos. 
+    - A tag <span> é uma tag de texto, ou seja, ela permite que você estilize um texto específico.
+  -->
+  <div>
+    <p>Lorem ipsum dolor, sit amet consectetur <span>adipisicing</span> elit.</p>
+  </div>
+</body>
+
+</html>

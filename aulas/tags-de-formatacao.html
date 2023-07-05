@@ -1,0 +1,93 @@
+<!-- 
+  - A tag <!DOCTYPE> define o tipo de documento. 
+  - O atributo html define que o documento é um documento HTML. 
+-->
+<!DOCTYPE html>
+
+<!-- 
+  - A tag <html> define o início do documento. 
+  - O atributo lang define o idioma do documento.
+-->
+<html lang="pt-br">
+
+<!-- 
+  - O cabeçalho(<head>) do documento é onde ficam as informações sobre o documento, como o título, o conjunto de caracteres, a versão do Internet Explorer e a escala do documento para dispositivos móveis. 
+-->
+
+<head>
+  <!-- 
+    - Define o conjunto de caracteres do documento para UTF-8(Padrão do Brasil).
+  -->
+  <meta charset="UTF-8">
+
+  <!-- 
+    - Define a versão do Internet Explorer. 
+  -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- 
+    - Define a escala do documento para dispositivos móveis. 
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - Define o título do documento. 
+  -->
+  <title>Tags de Formatação de Texto</title>
+</head>
+
+<!-- 
+  - O corpo(<body>) do documento é onde fica o conteúdo que será exibido na página. 
+-->
+
+<body>
+  <!-- 
+    - A tag <b> deixa o texto em negrito mas sem ênfase ou seja, sem mais importância para os mecanismos de busca e leitores de tela.
+    - A tag <strong> deixa o texto em negrito e com ênfase ou seja, com mais importância para os mecanismos de busca e leitores de tela.
+
+    - A tag <i> deixa o texto em itálico ou seja, com ênfase ou importância menor para os mecanismos de busca e leitores de tela.
+    - A tag <em> deixa o texto em itálico ou seja, com ênfase ou importância maior para os mecanismos de busca e leitores de tela.
+
+    - A tag <u> deixa o texto sublinhado ou seja, com ênfase ou importância menor para os mecanismos de busca e leitores de tela.
+    - A tag <ins> deixa o texto sublinhado ou seja, com ênfase ou importância maior para os mecanismos de busca e leitores de tela.
+
+    - A tag <s> deixa o texto riscado ou seja, com ênfase ou importância menor para os mecanismos de busca e leitores de tela. 
+      
+    - A tag <mark> deixa o texto com marcação ou seja, com ênfase ou importância maior para os mecanismos de busca e leitores de tela.
+  -->
+  <p>Lorem ipsum dolor, <b>sit</b> amet consectetur adipisicing elit. Officiis voluptatibus <i>sapiente</i> dolorum eveniet commodi repudiandae quidem eaque expedita. Lorem <u>ipsum dolor</u> sit amet consectetur <s>adipisicing</s> elit.</p>
+
+  <p>Lorem ipsum dolor, <strong>sit</strong> amet consectetur adipisicing elit. Officiis voluptatibus <em>sapiente</em> dolorum eveniet commodi <mark>repudiandae</mark> quidem eaqueexpedita. Lorem <ins>ipsum dolor</ins> sit amet consectetur adipisicing elit.</p>
+
+  <!-- 
+    - A tag <pre> define um texto pré-formatado ou seja, o texto será exibido exatamente como foi escrito, com espaços, quebras de linha e tabulações.
+  -->
+  <pre>
+    const nome = "Luiz";
+
+    console.log("Hello World!");
+  </pre>
+
+  <!--
+    - A tag <code> define um texto de código ou seja, o texto será exibido com uma fonte monoespaçada.
+  -->
+  <p>Como você pode ver acima, o <code>const nome</code> é do tipo string.</p>
+
+  <!-- 
+    - A tag <blockquote> define um texto de citação ou seja, o texto será exibido com uma fonte monoespaçada e com uma margem maior.
+  -->
+  <blockquote>
+    "Uma citação qualquer."
+  </blockquote>
+
+  <!--  
+    - A tag <sup> define um texto sobrescrito ou seja, o texto será exibido acima da linha.
+    - A tag <sub> define um texto subscrito ou seja, o texto será exibido abaixo da linha.
+  -->
+  <p>
+    2<sup>10</sup>.
+    H<sub>2</sub>O.
+  </p>
+</body>
+
+</html>
