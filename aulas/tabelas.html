@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabelas</title>
+</head>
+
+<body>
+  <main>
+    <section id="students">
+      <h2>Tabela de Alunos</h2>
+
+      <!-- 
+        * A tag <table> é a tag que define uma tabela no HTML.
+        * O atributo border define a borda da tabela.
+      -->
+      <table border="2">
+        <!-- 
+          * A tag <thead> é a tag que define o cabeçalho da tabela. 
+        -->
+        <thead>
+          <!-- 
+            * A tag <tr> é a tag que define uma linha da tabela.
+          -->
+          <tr>
+            <!-- 
+              * A tag <th> é a tag que define uma célula de cabeçalho da tabela.
+            -->
+            <th>Nome</th>
+            <th>E-mail</th>
+            <th>Matrícula</th>
+          </tr>
+        </thead>
+
+        <!-- 
+          * A tag <tbody> é a tag que define o corpo da tabela.
+        -->
+        <tbody>
+          <!-- 
+            * A tag <tr> é a tag que define uma linha da tabela.
+          -->
+          <tr>
+            <!-- 
+              * A tag <td> é a tag que define uma célula do corpo da tabela.
+            -->
+            <td>Carol Danvers</td>
+            <td>carol.danvers@email.com</td>
+            <td>1</td>
+          </tr>
+
+          <tr>
+            <!-- 
+              * A tag <td> é a tag que define uma célula do corpo da tabela.
+            -->
+            <td>Peter Parker</td>
+            <td>peter.parker@email.com</td>
+            <td>2</td>
+          </tr>
+
+          <tr>
+            <!-- 
+              * A tag <td> é a tag que define uma célula do corpo da tabela.
+            -->
+            <td>Tony Stark</td>
+            <td>tony.stark@email.com</td>
+            <td>3</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="finance">
+      <h2>Tabela de Finanças</h2>
+
+      <!-- 
+        * A tag <table> é a tag que define uma tabela no HTML.
+        * O atributo border define a borda da tabela.
+      -->
+      <table border="2">
+        <!-- 
+          * A tag <thead> é a tag que define o cabeçalho da tabela. 
+        -->
+        <thead>
+          <!-- 
+            * A tag <tr> é a tag que define uma linha da tabela.
+          -->
+          <tr>
+            <!-- 
+              * A tag <th> é a tag que define uma célula de cabeçalho da tabela.
+            -->
+            <th>Data</th>
+            <th>Tipo</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+
+        <!-- 
+          * A tag <tbody> é a tag que define o corpo da tabela.
+        -->
+        <tbody>
+          <!-- 
+            * A tag <tr> é a tag que define uma linha da tabela.
+          -->
+          <tr>
+            <!-- 
+              * A tag <td> é a tag que define uma célula do corpo da tabela.
+              * O atributo rowspan define quantas linhas a célula irá ocupar.
+              * O atributo colspan define quantas colunas a célula irá ocupar.
+            -->
+            <td rowspan="2">15/06/2022</td>
+            <td colspan="2">Despesa</td>
+            <!-- <td>Almoço</td> -->
+            <td>R$ 35,00</td>
+          </tr>
+
+          <tr>
+            <!-- 
+              * A tag <td> é a tag que define uma célula do corpo da tabela.
+            -->
+            <td>Receita</td>
+            <td>Salário</td>
+            <td>R$ 3.768,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+</body>
+
+</html>

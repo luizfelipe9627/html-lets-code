@@ -1,50 +1,20 @@
-<!-- 
-  - A tag <!DOCTYPE> define o tipo de documento. 
-  - O atributo html define que o documento é um documento HTML. 
--->
 <!DOCTYPE html>
 
-<!-- 
-  - A tag <html> define o início do documento. 
-  - O atributo lang define o idioma do documento.
--->
 <html lang="pt-br">
 
-<!-- 
-  - O cabeçalho(<head>) do documento é onde ficam as informações sobre o documento, como o título, o conjunto de caracteres, a versão do Internet Explorer e a escala do documento para dispositivos móveis. 
--->
-
 <head>
-  <!-- 
-    - Define o conjunto de caracteres do documento para UTF-8(Padrão do Brasil).
-  -->
   <meta charset="UTF-8">
-
-  <!-- 
-    - Define a versão do Internet Explorer. 
-  -->
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <!-- 
-    - Define a escala do documento para dispositivos móveis. 
-  -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
-    - Define o título do documento. 
-  -->
   <title>Elementos Semânticos</title>
 </head>
-
-<!-- 
-  - O corpo(<body>) do documento é onde fica o conteúdo que será exibido na página. 
--->
 
 <body>
   <!-- 
     - A tag <header> define o cabeçalho da página. O cabeçalho da página é onde fica o conteúdo que será exibido no topo da página.
   -->
   <header>
+    Conteúdo do cabeçalho.
     <!-- 
       - A tag <nav> é usada para definir uma barra de navegação. A barra de navegação é onde fica o conteúdo que será exibido na barra de navegação da página.
     -->
@@ -57,37 +27,41 @@
     - A tag <main> define o conteúdo principal da página. O conteúdo principal da página é onde fica o conteúdo que será exibido no corpo da página.
   -->
   <main>
-    Conteúdo principal
+    Conteúdo principal.
 
     <!-- 
       - A tag <section> define uma seção da página. A seção da página é onde fica o conteúdo que será exibido no corpo da página. 
       - O atributo id define um identificador único para a seção que só pode ser usado uma vez na página.
     -->
     <section id="about-me">
+      Sessão sobre mim.
       <!-- 
         - A tag <figure> define uma figura da página. A figura da página é onde fica o conteúdo que será exibido no corpo da página. 
       -->
       <figure>
         <img src="https://avatars.githubusercontent.com/u/93567029?v=4" alt="Imagem de perfil" width="200">
+
         <!-- 
           - A tag <figcaption> define uma legenda para a figura. A legenda da figura é onde fica o conteúdo que será exibido abaixo da figura. 
         -->
-        <figcaption>Foto de perfil do GitHub</figcaption>
+        <figcaption>Foto de perfil do GitHub.</figcaption>
       </figure>
     </section>
 
     <section id="portfolio">
-      Portfólio
+      Sessão portfólio.
     </section>
 
     <section id="blog">
+      Sessão blog.
       <!-- 
         - A tag <article> define um artigo da página. O artigo da página é onde fica o conteúdo que será exibido no corpo da página. 
       -->
       <article>
-        <header></header>
-        <main></main>
-        <footer></footer>
+        Conteúdo do artigo.
+        <header>Conteúdo do header do article.</header>
+        <main>Conteúdo principal do article.</main>
+        <footer>Conteúdo do footer do article.</footer>
       </article>
     </section>
   </main>
