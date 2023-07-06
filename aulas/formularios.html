@@ -8,7 +8,167 @@
 </head>
 
 <body>
+  <main>
+    <h1>Formulário</h1>
 
+    <hr>
+    <br>
+
+    <!-- 
+      * A tag <form> é utilizada para criar um formulário. 
+      * O atributo action define o endereço para onde os dados do formulário serão enviados.
+      * O método GET envia os dados do formulário pela URL.
+      * O método POST envia os dados do formulário pelo corpo da requisição.
+    -->
+    <form>
+      <div>
+        <!-- 
+          * A tag <label> é utilizada para criar um rótulo para um campo de formulário. 
+          * O atributo for define o id do campo de formulário que será associado ao rótulo.
+        -->
+        <label for="nome">Nome: </label>
+
+        <!-- 
+          * A tag <input> é utilizada para criar um campo de formulário. 
+          * O atributo type define o tipo de campo que será criado.
+          * O atributo type="text" cria um campo de texto simples.
+          * O atributo id define o id do campo de formulário.
+          * O atributo placeholder define um texto de exemplo para o campo de formulário.
+          * O atributo value define o valor inicial do campo de formulário.
+          * O atributo name define o nome do campo de formulário.
+        -->
+        <input type="text" id="nome" placeholder="Digite o seu nome" value="Luiz" name="nome">
+      </div>
+
+      <div>
+        <label for="senha">Senha: </label>
+        <!-- 
+          * O atributo type="password" cria um campo de senha com os caracteres ocultos.
+        -->
+        <input type="password" id="senha" name="senha">
+      </div>
+
+      <div>
+        <label for="email">E-mail: </label>
+        <!-- 
+          * O atributo type="email" cria um campo de email com validação de email.
+        -->
+        <input type="email" id="email" name="email">
+      </div>
+
+      <div>
+        <label for="data">Data de nascimento: </label>
+        <!-- 
+          * O atributo type="date" cria um campo de data com um calendário para seleção.
+        -->
+        <input type="date" id="data" name="data">
+      </div>
+
+      <div>
+        <label for="hora">Hora do nascimento: </label>
+        <!-- 
+          * O atributo type="time" cria um campo de hora com setas para aumentar e diminuir o valor.
+        -->
+        <input type="time" id="hora" name="hora">
+      </div>
+
+      <div>
+        <label for="numero">Número: </label>
+        <!-- 
+          * O atributo type="number" cria um campo de número com setas para aumentar e diminuir o valor.
+        -->
+        <input type="number" id="numero" name="numero">
+      </div>
+
+      <div>
+        <label for="arquivo">Arquivo: </label>
+        <!-- 
+          * O atributo type="file" cria um campo de arquivo para upload.
+        -->
+        <input type="file" id="arquivo" name="arquivo">
+      </div>
+
+
+      <div>
+        <label for="cor">Cor: </label>
+        <!-- 
+          * O atributo type="color" cria um campo de cor(paleta de cores).
+        -->
+        <input type="color" id="cor" name="cor">
+      </div>
+
+      <div>
+        <label for="range">Range: </label>
+        <!-- 
+          * O atributo type="range" cria um campo de range(barra de rolagem).
+        -->
+        <input type="range" id="range" name="range">
+      </div>
+
+      <div>
+        <label for="checkbox">Checkbox: </label>
+        <!-- 
+          * O atributo type="checkbox" cria um campo de checkbox para seleção de vários itens.
+        -->
+        <input type="checkbox" id="checkbox" name="checkbox">
+        <input type="checkbox" id="checkbox" name="checkbox">
+      </div>
+
+      <div>
+        <label for="radio">Radio: </label>
+        <!-- 
+          * O atributo type="radio" cria um campo de radio para seleção de apenas um item.
+        -->
+        <input type="radio" id="radio" name="radio">
+        <input type="radio" id="radio" name="radio">
+      </div>
+
+      <!-- 
+        * A tag <textarea> é utilizada para criar um campo de texto com várias linhas. 
+        * O atributo cols define a quantidade de colunas do campo de texto.
+        * O atributo rows define a quantidade de linhas do campo de texto.
+      -->
+      <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+
+      <div>
+        <!-- 
+          * A tag <select> é utilizada para criar um campo de seleção.
+        -->
+        <select name="select" id="select">
+          <!-- 
+            * A tag <option> é utilizada para criar uma opção de seleção.
+            * O atributo value define o valor da opção de seleção.
+            * O atributo disabled desabilita a opção de seleção.
+            * O atributo selected define a opção de seleção inicial.
+          -->
+          <option value="" disabled selected>Selecione uma das opções</option>
+          <option value="receita">Receita</option>
+          <option value="despesa">Despesa</option>
+          <option value="transferencia">Transferência</option>
+        </select>
+      </div>
+
+      <br>
+
+      <div>
+        <label for="reset">Reset: </label>
+        <!-- 
+          * O atributo type="reset" cria um botão para limpar os campos do formulário.
+        -->
+        <input type="reset" id="reset" name="reset">
+      </div>
+
+      <br>
+
+      <div>
+        <label for="submit">Submit: </label>
+        <!-- 
+          * O atributo type="submit" cria um botão para enviar os dados do formulário.
+        -->
+        <input type="submit" id="reset" name="reset">
+      </div>
+    </form>
+  </main>
 </body>
 
 </html>
